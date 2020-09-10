@@ -12,11 +12,11 @@ background-attachment: fixed;
 
 }
 /* 橫幅 */
-#banner nav{
+#banner nav, #banner-about nav {
     padding: 30px;
 }
 
-#banner a{
+#banner a, #banner-about a {
     color:white;
     text-decoration: none;
     font-size: 24px;
@@ -25,7 +25,7 @@ background-attachment: fixed;
     
 }
 
-#banner a:hover{
+#banner a:hover,#banner-about a:hover {
     color:#aaa;
 }
 
@@ -52,4 +52,23 @@ background-attachment: fixed;
 #news{
     height: 500px;
     background: #f1ebd7;
+}
+#banner-about{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    color:white;
+    background-attachment: fixed;
+
+#banner-about h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    padding-left: 20px;
+    line-height: 20vh;
+    backdrop-filter:opacity(35%);
+    height: 30vh;
+
 }
