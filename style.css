@@ -55,11 +55,24 @@ background-attachment: fixed;
 }
 #banner-about{
     width: 100%;
-    height: 100vh;
-    background-image: url(./img/banner.jpg);
+    background-image: url(./img/about1.jpg);
     background-size: cover;
     color:white;
-    background-attachment: fixed;
+    height: 100vh;
+}
+
+#banner-about p{
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.7;
+    font-size: 20px;
+    padding: 18px;
+    backdrop-filter:blur(8px);
+}
+#banner-about hr{
+    width:600px;
+    margin: 0 auto;
+}
 
 #banner-about h2 {
     text-align: center;
@@ -67,8 +80,32 @@ background-attachment: fixed;
     font-weight: 100;
     letter-spacing: 20px;
     padding-left: 20px;
-    line-height: 20vh;
-    backdrop-filter:opacity(35%);
-    height: 30vh;
+    line-height: 10vh;
+    height:20vh;
+    backdrop-filter:blur(8px);
+    
+}
 
+#about-content {
+    width: 1200px;
+    margin: 0 auto;
+    background:white;
+    padding: 30px;
+    margin-top: 100px;
+
+}
+
+#about-content h3{
+    text-align: center;
+    padding: 20px;
+}
+
+#about-content hr{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#about-content h1{
+    text-align: center;
+    padding: 30px;
 }
